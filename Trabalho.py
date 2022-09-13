@@ -37,7 +37,7 @@ def salvarDadosTxt(nome_arquivo, itens):
 
 def controlePrincipal():
     if "--help" in sys.argv or "-help" in sys.argv:
-        print("\nDigite um endereço web para buscar as informações")
+        print("\nDigite um endereço web para buscar as informações teste")
         print("Por exemplo teste.com.br\n")
         
     else:
